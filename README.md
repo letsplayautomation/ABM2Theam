@@ -1,141 +1,82 @@
-<h1 align=center>Meghna Hugo Theme</h1>
+# [Start Bootstrap - Agency](https://startbootstrap.com/theme/agency)
 
-<p align="center">Meghna is a dark single page professional Hugo website theme and crafted with all the necessary elements and features you will need to present your business.</p>
+[Agency](https://startbootstrap.com/theme/agency) is a one page, agency portfolio theme built with [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/). This theme features several content sections, a responsive portfolio grid, modal windows for each portfolio item, and a working PHP based contact form.
 
+## Preview
 
-<h2 align="center"> <a target="_blank" href="https://demo.gethugothemes.com/meghna" rel="nofollow">Demo</a> | <a  target="_blank" href="https://pagespeed.web.dev/report?url=https%3A%2F%2Fdemo.gethugothemes.com%2Fmeghna%2Fsite%2F&form_factor=desktop">Page Speed (99%)</a> </h2>
+[![Agency Preview](https://assets.startbootstrap.com/img/screenshots/themes/agency.png)](https://startbootstrap.github.io/startbootstrap-agency/)
 
-<p align=center>
-  <a href="https://github.com/gohugoio/hugo/releases/tag/v0.84.0" alt="Contributors">
-    <img src="https://img.shields.io/static/v1?label=min-HUGO-version&message=0.84.0&color=f00&logo=hugo" />
-  </a>
+**[View Live Preview](https://startbootstrap.github.io/startbootstrap-agency/)**
 
-  <a href="https://github.com/themefisher/meghna-hugo/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/themefisher/meghna-hugo" alt="license"></a>
+## Status
 
-  <img src="https://img.shields.io/github/languages/code-size/themefisher/meghna-hugo" alt="code size">
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/StartBootstrap/startbootstrap-agency/master/LICENSE)
+[![npm version](https://img.shields.io/npm/v/startbootstrap-agency.svg)](https://www.npmjs.com/package/startbootstrap-agency)
 
-  <a href="https://github.com/themefisher/meghna-hugo/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/themefisher/meghna-hugo" alt="contributors"></a>
+## Download and Installation
 
-  <a href="https://twitter.com/intent/follow?screen_name=gethugothemes">
-    <img src="https://img.shields.io/twitter/follow/gethugothemes?style=social&logo=twitter"
-      alt="follow on Twitter"></a>
-</p>
+To begin using this template, choose one of the following options to get started:
 
----
+- [Download the latest release on Start Bootstrap](https://startbootstrap.com/theme/agency)
+- Install using npm: `npm i startbootstrap-agency`
+- Clone the repo: `git clone https://github.com/StartBootstrap/startbootstrap-agency.git`
+- [Fork, Clone, or Download on GitHub](https://github.com/StartBootstrap/startbootstrap-agency)
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/37659754/54068559-44d79a80-4278-11e9-9601-f58d6879989c.gif"
-    alt="screenshot" width="100%">
-</p>
+## Usage
 
----
+### Basic Usage
 
-## Key Features
+After downloading, simply edit the HTML and CSS files included with `dist` directory. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
 
-- Multilingual support. (with language selector)
-- Taxonomies
-- SEO Friendly
-- Onepage
-- Blog Support
-- Smooth Scroll
-- Contact form Support
-- Google Map Support
-- WebP with fallback image support
-- Uses Hugo's asset generator with pipelining, fingerprinting, bundling, and minification by default.
+### Advanced Usage
 
-## Local development
+Clone the source files of the theme and navigate into the theme's root directory. Run `npm install` and then run `npm start` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `package.json` file to see which scripts are included.
 
-```bash
-# clone the repository
-git clone git@github.com:themefisher/meghna-hugo.git
+#### npm Scripts
 
-# cd in the project directory
-$ cd meghna-hugo/exampleSite/
+- `npm run build` builds the project - this builds assets, HTML, JS, and CSS into `dist`
+- `npm run build:assets` copies the files in the `src/assets/` directory into `dist`
+- `npm run build:pug` compiles the Pug located in the `src/pug/` directory into `dist`
+- `npm run build:scripts` brings the `src/js/scripts.js` file into `dist`
+- `npm run build:scss` compiles the SCSS files located in the `src/scss/` directory into `dist`
+- `npm run clean` deletes the `dist` directory to prepare for rebuilding the project
+- `npm run start:debug` runs the project in debug mode
+- `npm start` or `npm run start` runs the project, launches a live preview in your default browser, and watches for changes made to files in `src`
 
-# Start local dev server
-$ hugo server --themesDir ../..
-```
+You must have npm installed in order to use this build environment.
 
-Or Check out [Full Documentation](https://docs.gethugothemes.com/meghna/?ref=github).
+### Contact Form
 
-## Content Management System
+The contact form available with this theme is prebuilt to use [SB Forms](https://startbootstrap.com/solution/contact-forms).
+SB Forms is a simple form solution for adding functional forms to your theme. Since this theme is prebuilt using our
+SB Forms markup, all you need to do is sign up for [SB Forms on Start Bootstrap](https://startbootstrap.com/solution/contact-forms).
 
-[![import to
-Forestry](https://assets.forestry.io/import-to-forestryK.svg)](https://app.forestry.io/quick-start?repo=themefisher/meghna-hugo&engine=hugo&version=0.80.0)
+After signing up you will need to set the domain name your form will be used on, and you will then see your
+access key. Copy this and paste it into the `data-sb-form-api-token='API_TOKEN'` data attribute in place of
+`API_TOKEN`. That's it! Your forms will be up and running!
 
-This project has been pre-configured to work with [Forestry](https://forestry.io) a git-based CMS, [import your
-repository in Forestry](https://app.forestry.io/quick-start?repo=themefisher/meghna-hugo&engine=hugo&version=0.80.0) and
-you will be able to edit and preview your site ✨.
+If you aren't using SB Forms, simply delete the custom data attributes from the form, and remove the link above the
+closing `</body>` tag to SB Forms.
 
-Any changes you make in Forestry will be committed back to the repo and deployed if you use [Netlify](#netlify).
+## Bugs and Issues
 
-## Deployment and hosting
+Have a bug or an issue with this template? [Open a new issue](https://github.com/StartBootstrap/startbootstrap-agency/issues) here on GitHub or leave a comment on the [theme overview page at Start Bootstrap](https://startbootstrap.com/theme/agency).
 
-[![Deploy to
-Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/themefisher/meghna-hugo)
+## About
 
-Follow the steps.
+Start Bootstrap is an open source library of free Bootstrap themes and templates. All of the free themes and templates on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
 
-## Prefer a video? (Hugo + Netlify + Forestry)
+- <https://startbootstrap.com>
+- <https://twitter.com/SBootstrap>
 
-Build your website with **Meghna Hugo** theme by following these easy steps (No Coding Required!)
-[Video Tutorial](https://youtu.be/ResipmZmpDU).
+Start Bootstrap was created by and is maintained by **[David Miller](https://davidmiller.io/)**.
 
-<!-- reporting issue -->
-## Reporting Issues
+- <https://davidmiller.io>
+- <https://twitter.com/davidmillerhere>
+- <https://github.com/davidtmiller>
 
-We use GitHub Issues as the official bug tracker for the Meghna Template. Please Search [existing
-issues](https://github.com/themefisher/meghna-hugo/issues). Someone may have already reported the same problem.
-If your problem or idea has not been addressed yet, feel free to [open a new
-issue](https://github.com/themefisher/meghna-hugo/issues).
+Start Bootstrap is based on the [Bootstrap](https://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
 
-## Submit Your Website To Our Showcase
+## Copyright and License
 
-Are you using Meghna Hugo theme? Submit it to our [showcase](https://gethugothemes.com/showcase). 
-
-Our showcase aims to demonstrate to the world what amazing websites people like you have created utilizing our Hugo themes and to show that Hugo has tremendous capabilities as a Static Site Generator. 
-
-View all the websites powered by Meghna Hugo from [here](https://gethugothemes.com/showcase?theme=meghna). 
-
-[Submit](https://gethugothemes.com/showcase?submit=show) your Meghna Hugo powered website.
-
-
-<!-- licence -->
-## License
-
-Copyright &copy; Designed by [Themefisher](https://themefisher.com) & Developed by
-[Gethugothemes](https://gethugothemes.com)
-
-**Code License:** Released under the [MIT](https://github.com/themefisher/meghna-hugo/blob/master/LICENSE) license.
-
-**Image license:** The images are only for demonstration purposes. They have their licenses. We don't have permission to
-share those images.
-
-<!-- resources -->
-## Special Thanks
-
-- [Bootstrap](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
-- [Jquery](https://jquery.com/download/)
-- [Themify Icons](https://themify.me/themify-icons)
-- [Lozad](https://apoorv.pro/lozad.js/)
-- [Magnific Popup](https://dimsemenov.com/plugins/magnific-popup/)
-- [Slick Slider](https://kenwheeler.github.io/slick/)
-- [Shuffle](https://vestride.github.io/Shuffle/)
-- [Google Fonts](http://fonts.google.com/)
-- [All Contributors](https://github.com/themefisher/meghna-hugo/graphs/contributors)
-
-## Hire Us
-
-Besides developing unique, blazing-fast Hugo themes, we also provide customized services. We specialize in creating affordable, high-quality static websites based on Hugo.
-
-If you need to customize the theme or complete website development from scratch, you can hire us. **Check Our
-[Services](https://gethugothemes.com/services/?utm_source=meghna_github&utm_medium=referral&utm_campaign=github_theme_readme)**
-
-<!-- premium themes -->
-## Premium Themes By Us
-
-| [![Mega-Bundle-HUGO](https://demo.gethugothemes.com/thumbnails/bundle.png?)](https://gethugothemes.com/bundle/?utm_source=meghna_github&utm_medium=referral&utm_campaign=github_theme_readme) | [![Bigspring](https://demo.gethugothemes.com/thumbnails/bigspring.png)](https://gethugothemes.com/products/bigspring/) | [![Bizcraft](https://demo.gethugothemes.com/thumbnails/bizcraft.png)](https://gethugothemes.com/products/bizcraft/) |
-|:---:|:---:|:---:|
-| **Get 55+ Premium Hugo Themes Bundle** | **Bigspring** | **Bizcraft** |
+Copyright 2013-2023 Start Bootstrap LLC. Code released under the [MIT](https://github.com/StartBootstrap/startbootstrap-agency/blob/master/LICENSE) license.
