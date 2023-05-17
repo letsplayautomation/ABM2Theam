@@ -10875,7 +10875,7 @@ hr.divider-light {
   color: #212529;
 }
 #mainNav .navbar-brand img {
-  height: 4rem;
+  height: 5rem;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
   color: #6c757d;
@@ -10903,7 +10903,7 @@ hr.divider-light {
   }
   #mainNav.navbar-shrink .navbar-brand svg,
   #mainNav.navbar-shrink .navbar-brand img {
-    height: 4rem;
+    height: 3rem;
   }
   #mainNav .navbar-nav .nav-item .nav-link {
     color: rgba(255, 255, 255, 0.7);
