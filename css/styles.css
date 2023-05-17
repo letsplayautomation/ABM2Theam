@@ -10913,10 +10913,12 @@ hr.divider-light {
     padding-right: 0;
   }
   #mainNav.navbar-shrink {
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     background-color: #fff;
   }
   #mainNav.navbar-shrink .navbar-brand {
+    font-size: 1.25em;
     color: #212529;
   }
   #mainNav.navbar-shrink .navbar-brand:hover {
