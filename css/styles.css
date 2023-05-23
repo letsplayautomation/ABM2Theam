@@ -10915,11 +10915,11 @@ hr.divider-light {
   #mainNav .navbar-nav .nav-item:last-child .nav-link {
     padding-right: 0;
   }
-  #mainNav.navbar-shrink {
+/*   #mainNav.navbar-shrink {
     padding-top: 1rem;
     padding-bottom: 1rem;
     background-color: #fff;
-  }
+  } */
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
     color: #212529;
