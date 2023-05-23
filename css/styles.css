@@ -10916,8 +10916,8 @@ hr.divider-light {
     padding-right: 0;
   }
   #mainNav.navbar-shrink {
-    padding-top: 0rem;
-    padding-bottom: 0rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     background-color: #fff;
   }
   #mainNav.navbar-shrink .navbar-brand {
