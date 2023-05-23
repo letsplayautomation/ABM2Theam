@@ -10950,8 +10950,8 @@ header.masthead h1, header.masthead .h1 {
 @media (min-width: 992px) {
   header.masthead {
     height: 100vh;
-    min-height: 40rem;
-    padding-top: 4.5rem;
+    min-height: 0rem;
+    padding-top: 0rem;
     padding-bottom: 0;
   }
   header.masthead p {
