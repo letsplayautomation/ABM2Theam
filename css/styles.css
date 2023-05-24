@@ -2024,7 +2024,7 @@ progress {
   background-color: #fff;
   border-color: #fab19d;
   outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(244, 98, 58, 0.25);
+  box-shadow: 0 0 0 0.25rem rgba(90, 196, 246, 0.25);
 }
 .form-control::-webkit-date-and-time-value {
   height: 1.5em;
@@ -2171,7 +2171,7 @@ textarea.form-control-lg {
 .form-select:focus {
   border-color: #fab19d;
   outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(244, 98, 58, 0.25);
+  box-shadow: 0 0 0 0.25rem rgba(90, 196, 246, 0.25);
 }
 .form-select[multiple], .form-select[size]:not([size="1"]) {
   padding-right: 0.75rem;
@@ -2251,7 +2251,7 @@ textarea.form-control-lg {
 .form-check-input:focus {
   border-color: #fab19d;
   outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(244, 98, 58, 0.25);
+  box-shadow: 0 0 0 0.25rem rgba(90, 196, 246, 0.25);
 }
 .form-check-input:checked {
   background-color: #5ac4f6;
@@ -2339,10 +2339,10 @@ textarea.form-control-lg {
   outline: 0;
 }
 .form-range:focus::-webkit-slider-thumb {
-  box-shadow: 0 0 0 1px #fff, 0 0 0 0.25rem rgba(244, 98, 58, 0.25);
+  box-shadow: 0 0 0 1px #fff, 0 0 0 0.25rem rgba(90, 196, 246, 0.25);
 }
 .form-range:focus::-moz-range-thumb {
-  box-shadow: 0 0 0 1px #fff, 0 0 0 0.25rem rgba(244, 98, 58, 0.25);
+  box-shadow: 0 0 0 1px #fff, 0 0 0 0.25rem rgba(90, 196, 246, 0.25);
 }
 .form-range::-moz-focus-outer {
   border: 0;
@@ -2986,7 +2986,7 @@ textarea.form-control-lg {
   --bs-btn-hover-color: #fff;
   --bs-btn-hover-bg: #5ac4f6;
   --bs-btn-hover-border-color: #5ac4f6;
-  --bs-btn-focus-shadow-rgb: 244, 98, 58;
+  --bs-btn-focus-shadow-rgb: 90, 196, 246;
   --bs-btn-active-color: #fff;
   --bs-btn-active-bg: #5ac4f6;
   --bs-btn-active-border-color: #5ac4f6;
@@ -4512,7 +4512,7 @@ textarea.form-control-lg {
   --bs-pagination-hover-border-color: #dee2e6;
   --bs-pagination-focus-color: var(--bs-link-hover-color);
   --bs-pagination-focus-bg: #e9ecef;
-  --bs-pagination-focus-box-shadow: 0 0 0 0.25rem rgba(244, 98, 58, 0.25);
+  --bs-pagination-focus-box-shadow: 0 0 0 0.25rem rgba(90, 196, 246, 0.25);
   --bs-pagination-active-color: #fff;
   --bs-pagination-active-bg: #5ac4f6;
   --bs-pagination-active-border-color: #5ac4f6;
