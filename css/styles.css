@@ -156,6 +156,29 @@ h4, .h4 {
   }
 }
 
+#title,#testimonials,#Location {
+  color: #fff;
+  /* background-image: url("https://www.intellectyx.com/wp-content/themes/intellectyx/imgs/banner_1.jpg");*/
+}
+
+/* Background Color common style */
+#testimonials,#title{
+  background-color: #3282b8;
+}
+
+/* Text align common style */
+#testimonials,#press,#footer,#footer,#features{
+  text-align: center;
+}
+
+/* testimonials Section Style */
+
+.testimonial-image {
+  width: 30%;
+  border-radius: 40%;
+  margin: 5%;
+}
+
 h5, .h5 {
   font-size: 1.25rem;
 }
