@@ -85,6 +85,12 @@
   box-sizing: border-box;
 }
 
+.social-icon {
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   :root {
     scroll-behavior: smooth;
@@ -209,6 +215,10 @@ ul ul,
 ol ul,
 ul ol {
   margin-bottom: 0;
+}
+
+body .social-icon {
+    text-align: right;
 }
 
 dt {
