@@ -1148,6 +1148,7 @@ progress {
   .col-md-3 {
     flex: 0 0 auto;
     width: 27%;
+    color: #212529;
   }
   .col-md-4 {
     flex: 0 0 auto;
@@ -10921,7 +10922,7 @@ hr.divider-light {
   height: 5rem;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
-  color: #6c757d;
+  color: #212529;
   font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   font-size: 0.9rem;
