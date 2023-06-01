@@ -1147,7 +1147,7 @@ progress {
   }
   .col-md-3 {
     flex: 0 0 auto;
-    width: 27%;
+    width: 50%;
     color: #212529;
   }
   .col-md-4 {
