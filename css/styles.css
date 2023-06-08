@@ -159,6 +159,10 @@ h2, .h2 {
   }
 }
 
+.mb-6 {
+    width: 50%;
+}
+
 h3, .h3 {
   font-size: calc(1.3rem + 0.6vw);
 }
@@ -1332,7 +1336,7 @@ progress {
   }
   .col-lg-6 {
     flex: 0 0 auto;
-    width: 50%;
+    width: 100%;
   }
   .col-lg-7 {
     flex: 0 0 auto;
