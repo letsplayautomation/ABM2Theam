@@ -1332,11 +1332,11 @@ progress {
   }
   .col-lg-3 {
     flex: 0 0 auto;
-    width: 33%;
+    width: 50%;
   }
   .col-lg-4 {
     flex: 0 0 auto;
-    width: 50%;
+    width: 33.333%;
   }
   .col-lg-5 {
     flex: 0 0 auto;
