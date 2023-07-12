@@ -130,6 +130,11 @@ body .fa {
     color: #5ac4f6;
 }
 
+.ci {
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
 .mb-7 {
     text-align: left;
 }
