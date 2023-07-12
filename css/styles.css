@@ -1448,7 +1448,7 @@ progress {
   }
   .g-lg-5,
   .gx-lg-5 {
-    --bs-gutter-x: 3rem;
+    --bs-gutter-x: 1.5rem;
   }
   .g-lg-5,
   .gy-lg-5 {
@@ -10895,7 +10895,7 @@ body {
 }
 
 .page-section {
-  padding: 4rem 0;
+  padding: 3rem 0;
 }
 
 .text-white-75 {
